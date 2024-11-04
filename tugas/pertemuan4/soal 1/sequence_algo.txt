@@ -1,0 +1,5 @@
+Mulai
+Input sisi kubus
+Hitung volume = sisi × sisi × sisi
+Output volume
+Selesai
