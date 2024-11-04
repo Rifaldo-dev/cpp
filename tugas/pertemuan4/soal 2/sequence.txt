@@ -1,0 +1,6 @@
+Mulai
+Input panjang dan lebar
+Hitung luas = panjang × lebar
+Hitung keliling = 2 × (panjang + lebar)
+Output luas, keliling
+Selesai

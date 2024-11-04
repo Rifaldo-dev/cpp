@@ -1,0 +1,5 @@
+Mulai
+Input sisi kubus
+Panggil fungsi hitungVolume(sisi)
+Output volume
+Selesai

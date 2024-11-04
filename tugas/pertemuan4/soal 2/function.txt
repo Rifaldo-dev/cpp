@@ -1,0 +1,6 @@
+Mulai
+Input panjang dan lebar
+Panggil fungsi hitungLuas(panjang, lebar)
+Panggil fungsi hitungKeliling(panjang, lebar)
+Output luas, keliling
+Selesai
