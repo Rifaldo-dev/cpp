@@ -9,10 +9,8 @@ int main() {
 
     cout << "Masukkan tarif per m3: ";
     cin >> tarif;
-
     
     total = pemakaian * tarif;
-
     cout << "Total biaya pemakaian air: Rp" << total << endl;
 
     return 0;
