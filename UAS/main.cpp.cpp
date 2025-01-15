@@ -30,13 +30,12 @@ void TampilkanJudul3(int jumlahBarang[3], string namaBarang[3], string satuanBar
              << "\t" << setw(6) << jumlahBarang[i] << "\t\t" 
              << setw(20) << namaBarang[i] << "\t\t" 
              << setw(5) << satuanBarang[i] << "\t\t" 
-             << setw(10) << hargaBarang[i] << "\t" 
-             << setw(10) << biayaPerBarang;
+             << setw(10) << fixed << setprecision(2) << hargaBarang[i] << "\t" 
+             << setw(10) << fixed << setprecision(2) << biayaPerBarang;
 
         totalBiaya += biayaPerBarang;
     }
 
-    
     if (totalBiaya >= 500000 && totalBiaya <= 600000) {
         diskon = 0.05 * totalBiaya;
     } else if (totalBiaya > 600000 && totalBiaya <= 800000) {
@@ -50,9 +49,9 @@ void TampilkanJudul3(int jumlahBarang[3], string namaBarang[3], string satuanBar
     totalBayar = totalBiaya - diskon;
 
     cout << "\n----------------------------------------------------------------------------------------------------------";
-    cout << "\n\t\t\t\t\t\t\tTotal Biaya (Rp)\t= " << setw(10) << totalBiaya;
-    cout << "\n\t\t\t\t\t\t\tDiskon (Rp)\t\t= " << setw(10) << diskon;
-    cout << "\n\t\t\t\t\t\t\tTotal Bayar (Rp)\t= " << setw(10) << totalBayar;
+    cout << "\n\t\t\t\t\t\t\tTotal Biaya (Rp)\t= " << setw(10) << fixed << setprecision(2) << totalBiaya;
+    cout << "\n\t\t\t\t\t\t\tDiskon (Rp)\t\t= " << setw(10) << fixed << setprecision(2) << diskon;
+    cout << "\n\t\t\t\t\t\t\tTotal Bayar (Rp)\t= " << setw(10) << fixed << setprecision(2) << totalBayar;
 }
 
 int main() {
