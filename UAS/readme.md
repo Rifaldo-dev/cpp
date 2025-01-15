@@ -91,5 +91,5 @@ Menampilkan tabel barang yang dibeli, serta menghitung total biaya, diskon, dan 
 3. Program menghitung total biaya barang yang dibeli.  
 4. Program menghitung diskon berdasarkan total biaya.  
 5. Program menampilkan tabel barang beserta total biaya, diskon, dan total pembayaran.
-
+ ![img](photo/hasil.png)
 ---
