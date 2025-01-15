@@ -77,7 +77,8 @@ Menampilkan tabel barang yang dibeli, serta menghitung total biaya, diskon, dan 
 - `satuanBarang[3]` (array string): Satuan barang.  
 - `hargaBarang[3]` (array double): Harga barang.  
 
-**Contoh Keluaran**:  
+
+ ![img](photo/f3.png)  
 
 
 
