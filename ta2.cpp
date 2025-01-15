@@ -57,8 +57,7 @@ void TampilkanJudul3(int jumlahBarang[3], string namaBarang[3], string satuanBar
 
 int main() {
     string idPelanggan, namaPelanggan, emailPelanggan, tanggalPembelian;
-
-    // Input untuk data pelanggan
+    
     cout << "Masukkan ID Pelanggan: ";
     getline(cin, idPelanggan);
     cout << "Masukkan Nama Pelanggan: ";
@@ -73,7 +72,6 @@ int main() {
     string satuanBarang[3];
     float hargaBarang[3];
 
-    // Input untuk data barang
     for (int i = 0; i < 3; i++) {
         cout << "\nMasukkan Nama Barang ke-" << (i + 1) << ": ";
         getline(cin, namaBarang[i]);
